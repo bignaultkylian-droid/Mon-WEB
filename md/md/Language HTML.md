@@ -60,3 +60,15 @@ La bordure `border` peut même avoir un style.
 (https://www.w3schools.com/Css/css_boxmodel.asp)
 
 Ils existe de nombreuses propriétés 
+
+
+3) JavaScript (JS)
+
+C'est le language de programmation qui permet de gérer les éléments interactifs d'une page HTML.
+
+Historiquement, les éléments d'interactions étaient placés dans un formulaire `<form></form>` pour renvoyer des informations au serveur.
+
+Dans le formulaire on place les éléments `<input type="">`:
+- type="text"
+- type="checkbox"
+- type="bottom"
