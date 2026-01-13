@@ -59,3 +59,4 @@ La bordure `border` peut même avoir un style.
 [https://www.w3schools.com/Css/css_boxmodel.asp]
 (https://www.w3schools.com/Css/css_boxmodel.asp)
 
+Ils existe de nombreuses propriétés 
