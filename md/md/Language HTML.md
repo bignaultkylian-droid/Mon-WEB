@@ -72,3 +72,20 @@ Dans le formulaire on place les éléments `<input type="">`:
 - type="text"
 - type="checkbox"
 - type="bottom"
+
+rem: Une balise `<button type="button"></button>` a été spécifiquement créée pour les boutons
+
+On peut le JS directement:
+- dans le fichier HTML entre des balises `<script></script>`
+- dans un fichier externe avce l'extension .js
+
+On utilise la balise script pour lier le fichier js.
+
+JS est utilisé pour réagir aux évènements : `click`, `change`, `mouseover`, ...
+
+La syntaxe basique est:
+
+```js
+elementHTML.addEventListener('event' , function(){......})
+
+```

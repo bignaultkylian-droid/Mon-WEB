@@ -1,61 +1,45 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Première Page</title>
-</head>
-<body>
-    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coucou Spiderman</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <style>
-        
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style2.css">
 </head>
 <body>
-    <!--Ceci est un commentaire-->
-    <h1>titre de niveau 1</h1>
-    <h2>titre niveau 2</h2>
-    <p>On remarque que le navigateur crée un saut de ligne entre les titres, les paragraphe.<br>
-        Pour un saut de ligne dans un paragraphe, il faut ajouter un break.<br><br>
-    </p>
+<h1>Jouons avec JS</h1>
+    <action>
+      <input type = "range" name="range" id="range" value="75">
+      <input type="text" name="text" id="text">
+      <input type="button" value="clique" id="btn">
+      <input type="checkbox" name="checkbox" id="check1" checked>
+      <input type="password" name="password" id="password">
+    </action>
+    <script>
+        let titre = document.querySelector('h1');
+        console.log(titre);
+        console.log(titre.textContent);
+        console.log(titre.style.color);
+        let pression = false
+        let bouton = document.getElementById('btn');
+        bouton.addEventListener('click', function(){
+            titre.textContent = "Nouveau titre avec JS" ;
+            titre.style.color = "red";
+            titre.style.fontSize = "40px";
+            
+            });   
+    // let curseur = document.querySelector('input');
+    // console.log(curseur);
+    // console.log(curseur.value);   
+    // curseur.addEventListener('change', function(){
+        // console.log(curseur.value);
+    // });
+    // let box = document.getElementById('check1');
+    // console.log(box.checked);
+    // text.addEventListener('change', function(){
+        // console.log(text.value);
 
-     <p class="deux">Pour afficher un des symbole html dans une page il existe des codes HTML.&lt;br&gt;
-On peut faire des liens avec la balise &lt;a&gt;
-     <a href="https://www.happy-beez.net/caracteres-speciaux-html/">
-        Voici mon lien
-     </a>
-     </p> 
-
-     <p>
-    Voici une liste sans ordre:
-    <ul>
-    <li>Pain</li>
-    <li>Pin</li>
-    <li>Paff</li>
-    </ul>
-
-    Voici une liste avec ordre
-    <ol>
-    <li>Pain</li>
-    <li>Pin</li>
-    <li>Paff</li>
-    </ol>
-     </p>
-    
-<img src="../img/Sabrina.jpg">
-
-<form action"" method="get">
-<input type="text" name="login" id="login">
-<input onclick=console.log('coucou') type="button" value="Envoyer" id="btn1">
-
-</form>
-</body>
-</html>
+    //});
+    </script>
 </body>
 </html>
